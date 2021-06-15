@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+*{
+    color: #222;
+    font-family: 'Nanum Gothic', sans-serif
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+a:link {
+    color: #555;
+}
+
+a:visited {
+    color: #555;
+}
+
+a:hover {
+    color: #555;
+}
+
+a:active {
+    color: #555;
+}
+img{
+    vertical-align: middle;
+    
+}
+
+ul{
+    list-style: none;
+}
+
+.flexContainer {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+div#wrap{
+    width: 640px;
+    height: 500px;
+    margin: 0 auto;
+    border: 1px solid #000;
+}
+
+nav#gnb{
+    border: 1px solid rgb(148, 4, 243);
+}
+#gnb a{
+    width: 150px;
+    height: 48px;
+    font-size: 16px;
+    line-height: 48px;
+    text-align: center;
+    border: 1px solid #000;
+    display:inline-block;
+    padding: 0 30px;
+
+}
+
+#gnb a:hover{
+    color: darkmagenta;
+}
+
+#gnb ul.subMenu{
+    display: none; /*서브메뉴 숨기기*/
+}
